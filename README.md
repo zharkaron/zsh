@@ -2,6 +2,24 @@
 
 This is my personal ZSH configuration, structured for portability across any Linux distribution.
 
+## Zsh Default
+This configuration requires Zsh.
+To switch your system to use Zsh as the default shell, run:
+
+```
+chsh -s $(which zsh)
+```
+
+Then log out and back in.
+
+You can confirm the change with:
+
+```
+echo $SHELL
+```
+
+If it prints something like /usr/bin/zsh, you’re good to go.
+
 ## Structure
 
 - `zshrc`  
