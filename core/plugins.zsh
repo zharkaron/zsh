@@ -4,11 +4,11 @@
 PLUGIN_DIR="$HOME/.config/zsh/plugins"
 
 # zsh-autosuggestions
-if [[ -f "$PLUGIN_DIR/autosuggestions/zsh-autosuggestions.zsh" ]]; then
-  source "$PLUGIN_DIR/autosuggestions/zsh-autosuggestions.zsh"
+if [[ -f "$PLUGIN_DIR/zsh-autosuggestions/zsh-autosuggestions.zsh" ]]; then
+  source "$PLUGIN_DIR/zsh-autosuggestions/zsh-autosuggestions.zsh"
 fi
 
 # zsh-syntax-highlighting (must load last)
-if [[ -f "$PLUGIN_DIR/syntax-highlighting/zsh-syntax-highlighting.zsh" ]]; then
-  source "$PLUGIN_DIR/syntax-highlighting/zsh-syntax-highlighting.zsh"
+if [[ -f "$PLUGIN_DIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" ]]; then
+  source "$PLUGIN_DIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 fi
